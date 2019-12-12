@@ -1,0 +1,28 @@
+---------------------------------------
+Resource Usage Report for test 
+
+Mapping to part: gw1n_1qfn48-6
+Cell usage:
+ALU             48 uses
+DFFC            45 uses
+DFFCE           25 uses
+DFFP            8 uses
+DFFPE           26 uses
+GSR             1 use
+INV             3 uses
+MUX2_LUT5       7 uses
+LUT2            22 uses
+LUT3            57 uses
+LUT4            60 uses
+
+I/O ports: 10
+I/O primitives: 10
+IBUF           4 uses
+OBUF           6 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   104 of 864 (12%)
+
+@S |Mapping Summary:
+Total  LUTs: 139 (12%)
+

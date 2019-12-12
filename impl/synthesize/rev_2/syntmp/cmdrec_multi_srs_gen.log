@@ -1,0 +1,7 @@
+E:\develop\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  test  -multisrs  C:\Projects\hdl\chine-fpga\test\impl\synthesize\rev_2\synwork\test_comp.srs  -osyn  C:\Projects\hdl\chine-fpga\test\impl\synthesize\rev_2\synwork\test_mult.srs  -log  C:\Projects\hdl\chine-fpga\test\impl\synthesize\rev_2\synlog\test_multi_srs_gen.srr 
+relcom:E:\develop\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro\bin64\syn_nfilter.exe -link -top test -multisrs ..\synwork\test_comp.srs -osyn ..\synwork\test_mult.srs -log ..\synlog\test_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\test_comp.srs|io:i|time:1575900490|size:7506|exec:0|csum:C35746547DDCFE6EB1ED6440EB62270A
+file:..\synwork\test_mult.srs|io:o|time:1575900492|size:4881|exec:0|csum:
+file:..\synlog\test_multi_srs_gen.srr|io:o|time:1575900492|size:1146|exec:0|csum:
+file:E:\develop\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1569428746|size:8840192|exec:1|csum:53D4B99CD3CB87F879FC8DA558113E33

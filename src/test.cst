@@ -1,0 +1,28 @@
+//Copyright (C)2014-2019 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: V1.9.2.01Beta
+//Part Number: GW1N-LV1QN48C6/I5
+//Created Time: Sat 11 30 18:50:51 2019
+
+IO_LOC "clock" 35;
+IO_PORT "clock" IO_TYPE=LVCMOS33;
+IO_LOC "butA" 15;
+IO_PORT "butA" IO_TYPE=LVCMOS33;
+IO_LOC "butB" 14;
+IO_PORT "butB" IO_TYPE=LVCMOS33;
+IO_LOC "RX" 27;
+IO_PORT "RX" IO_TYPE=LVCMOS33;
+IO_LOC "TX" 38;
+IO_PORT "TX" IO_TYPE=LVCMOS33;
+IO_LOC "G4" 39;
+IO_PORT "G4" IO_TYPE=LVCMOS33;
+IO_LOC "G5" 40;
+IO_PORT "G5" IO_TYPE=LVCMOS33;
+IO_LOC "ledr" 18;
+IO_PORT "ledr" IO_TYPE=LVCMOS33;
+IO_LOC "ledg" 16;
+IO_PORT "ledg" IO_TYPE=LVCMOS33;
+IO_LOC "ledb" 17;
+IO_PORT "ledb" IO_TYPE=LVCMOS33;
+NET_LOC "clock_c" BUFG = CLK;

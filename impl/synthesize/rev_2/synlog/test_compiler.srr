@@ -1,0 +1,111 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: E:\develop\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: HOME-PC
+
+Implementation : rev_2
+Synopsys HDL Compiler, Version comp2019q1p1, Build 307R, Built Sep 25 2019 09:21:26
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: E:\develop\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: HOME-PC
+
+Implementation : rev_2
+Synopsys Verilog Compiler, Version comp2019q1p1, Build 307R, Built Sep 25 2019 09:21:26
+
+@N|Running in 64-bit mode
+@I::"E:\develop\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro\lib\generic\gw1n.v" (library work)
+@I::"E:\develop\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"E:\develop\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"E:\develop\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"E:\develop\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Projects\hdl\chine-fpga\test\src\test.v" (library work)
+@I::"C:\Projects\hdl\chine-fpga\test\src\uart.v" (library work)
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module test
+@N: CG364 :"C:\Projects\hdl\chine-fpga\test\src\uart.v":12:7:12:15|Synthesizing module serial_rx in library work.
+Running optimization stage 1 on serial_rx .......
+@N: CG364 :"C:\Projects\hdl\chine-fpga\test\src\uart.v":81:7:81:15|Synthesizing module serial_tx in library work.
+Running optimization stage 1 on serial_tx .......
+@N: CG364 :"C:\Projects\hdl\chine-fpga\test\src\test.v":1:7:1:10|Synthesizing module test in library work.
+Running optimization stage 1 on test .......
+Running optimization stage 2 on test .......
+Running optimization stage 2 on serial_tx .......
+Running optimization stage 2 on serial_rx .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Projects\hdl\chine-fpga\test\impl\synthesize\rev_2\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 87MB peak: 88MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Dec  9 19:08:10 2019
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: E:\develop\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: HOME-PC
+
+Implementation : rev_2
+Synopsys Synopsys Netlist Linker, Version comp2019q1p1, Build 307R, Built Sep 25 2019 09:21:26
+
+@N|Running in 64-bit mode
+File C:\Projects\hdl\chine-fpga\test\impl\synthesize\rev_1\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 86MB peak: 86MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Dec  9 19:08:10 2019
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Projects\hdl\chine-fpga\test\impl\synthesize\rev_2\synwork\test_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 18MB peak: 19MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Dec  9 19:08:11 2019
+
+###########################################################]

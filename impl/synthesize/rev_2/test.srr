@@ -1,0 +1,715 @@
+#Build: Synplify Pro (R) P-2019.03G, Build 307R, Sep 25 2019
+#install: E:\develop\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro
+#OS: Windows 7 6.1
+#Hostname: HOME-PC
+
+# Mon Dec  9 19:08:09 2019
+
+#Implementation: rev_2
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: E:\develop\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: HOME-PC
+
+Implementation : rev_2
+Synopsys HDL Compiler, Version comp2019q1p1, Build 307R, Built Sep 25 2019 09:21:26
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: E:\develop\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: HOME-PC
+
+Implementation : rev_2
+Synopsys Verilog Compiler, Version comp2019q1p1, Build 307R, Built Sep 25 2019 09:21:26
+
+@N|Running in 64-bit mode
+@I::"E:\develop\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro\lib\generic\gw1n.v" (library work)
+@I::"E:\develop\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"E:\develop\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"E:\develop\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"E:\develop\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Projects\hdl\chine-fpga\test\src\test.v" (library work)
+@I::"C:\Projects\hdl\chine-fpga\test\src\uart.v" (library work)
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module test
+@N: CG364 :"C:\Projects\hdl\chine-fpga\test\src\uart.v":12:7:12:15|Synthesizing module serial_rx in library work.
+Running optimization stage 1 on serial_rx .......
+@N: CG364 :"C:\Projects\hdl\chine-fpga\test\src\uart.v":81:7:81:15|Synthesizing module serial_tx in library work.
+Running optimization stage 1 on serial_tx .......
+@N: CG364 :"C:\Projects\hdl\chine-fpga\test\src\test.v":1:7:1:10|Synthesizing module test in library work.
+Running optimization stage 1 on test .......
+Running optimization stage 2 on test .......
+Running optimization stage 2 on serial_tx .......
+Running optimization stage 2 on serial_rx .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Projects\hdl\chine-fpga\test\impl\synthesize\rev_2\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 87MB peak: 88MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Dec  9 19:08:10 2019
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: E:\develop\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: HOME-PC
+
+Implementation : rev_2
+Synopsys Synopsys Netlist Linker, Version comp2019q1p1, Build 307R, Built Sep 25 2019 09:21:26
+
+@N|Running in 64-bit mode
+File C:\Projects\hdl\chine-fpga\test\impl\synthesize\rev_1\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 86MB peak: 86MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Dec  9 19:08:10 2019
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Projects\hdl\chine-fpga\test\impl\synthesize\rev_2\synwork\test_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 18MB peak: 19MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Dec  9 19:08:11 2019
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: E:\develop\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: HOME-PC
+
+Implementation : rev_2
+Synopsys Synopsys Netlist Linker, Version comp2019q1p1, Build 307R, Built Sep 25 2019 09:21:26
+
+@N|Running in 64-bit mode
+File C:\Projects\hdl\chine-fpga\test\impl\synthesize\rev_1\synwork\test_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 86MB peak: 86MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Dec  9 19:08:12 2019
+
+###########################################################]
+Premap Report
+
+# Mon Dec  9 19:08:12 2019
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: E:\develop\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: HOME-PC
+
+Implementation : rev_2
+Synopsys Generic Technology Pre-mapping, Version mapgw, Build 1450R, Built Sep 25 2019 09:35:08
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 116MB)
+
+Reading constraint file: C:\Projects\hdl\chine-fpga\test\src\test.sdc
+@L: C:\Projects\hdl\chine-fpga\test\impl\synthesize\rev_2\test_scck.rpt 
+Printing clock  summary report in "C:\Projects\hdl\chine-fpga\test\impl\synthesize\rev_2\test_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 124MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 125MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 125MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 138MB)
+
+@N: FX493 |Applying initial value "0" on instance recv_edge.
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "1" on instance RDY.
+@N: FX493 |Applying initial value "000000000" on instance shift_reg[8:0].
+@N: FX493 |Applying initial value "00000000" on instance cnt[7:0].
+@N: FX493 |Applying initial value "00000000" on instance send_cnt[7:0].
+@N: FX493 |Applying initial value "1111111111" on instance send_reg[9:0].
+@N: FX493 |Applying initial value "1" on instance sel.
+@N: FX493 |Applying initial value "0" on instance send.
+@N: FX493 |Applying initial value "000" on instance cnt[2:0].
+@N: FX493 |Applying initial value "1" on instance rB.
+@N: FX493 |Applying initial value "1" on instance rG.
+@N: FX493 |Applying initial value "1" on instance rR.
+@N: FX493 |Applying initial value "1111110" on instance CH_blue[6:0].
+@N: FX493 |Applying initial value "0111110" on instance CH_green[6:0].
+@N: FX493 |Applying initial value "0011110" on instance CH_red[6:0].
+@N: FX493 |Applying initial value "00000000" on instance PWM_CNT[7:0].
+@N: FX493 |Applying initial value "00" on instance mxColor[1:0].
+@N: FX493 |Applying initial value "000000000000000000000000" on instance cnt_delay[23:0].
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 216MB peak: 216MB)
+
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 217MB peak: 217MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 217MB peak: 217MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 217MB peak: 217MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 217MB peak: 217MB)
+
+@N: MT611 :|Automatically generated clock test|cnt_derived_clock[2] is not used and is being removed
+@N: MT611 :|Automatically generated clock serial_rx|recv_edge_derived_clock is not used and is being removed
+@N: MT611 :|Automatically generated clock serial_rx|recv_edge_derived_clock_inv_proxy is not used and is being removed
+
+
+Clock Summary
+******************
+
+          Start     Requested     Requested     Clock        Clock                Clock
+Level     Clock     Frequency     Period        Type         Group                Load 
+---------------------------------------------------------------------------------------
+0 -       clk       24.0 MHz      41.667        declared     default_clkgroup     100  
+=======================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+          Clock     Source          Clock Pin       Non-clock Pin     Non-clock Pin                                  
+Clock     Load      Pin             Seq Example     Seq Example       Comb Example                                   
+---------------------------------------------------------------------------------------------------------------------
+clk       100       clock(port)     sel.C           -                 serial_rx|recv_edge_derived_clock.I[0](keepbuf)
+=====================================================================================================================
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 100 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+45 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@KP:ckid0_0       clock               port                   100        cnt_delay[23]  
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Projects\hdl\chine-fpga\test\impl\synthesize\rev_2\test.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 218MB peak: 218MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 218MB peak: 218MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 218MB peak: 218MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 140MB peak: 220MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Mon Dec  9 19:08:15 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Mon Dec  9 19:08:15 2019
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: E:\develop\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: HOME-PC
+
+Implementation : rev_2
+Synopsys Generic Technology Mapper, Version mapgw, Build 1450R, Built Sep 25 2019 09:35:08
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 214MB peak: 214MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 217MB peak: 217MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 218MB peak: 218MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 222MB peak: 222MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 222MB peak: 222MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 223MB peak: 223MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 223MB peak: 223MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 223MB peak: 223MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 223MB peak: 223MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 223MB peak: 223MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    33.26ns		 190 /       104
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 224MB peak: 224MB)
+
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 224MB peak: 224MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 151MB peak: 224MB)
+
+Writing Analyst data base C:\Projects\hdl\chine-fpga\test\impl\synthesize\rev_2\synwork\test_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 224MB peak: 224MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 225MB peak: 225MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 225MB peak: 225MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 224MB peak: 225MB)
+
+@N: MT615 |Found clock clk with period 41.67ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Mon Dec  9 19:08:21 2019
+#
+
+
+Top view:               test
+Requested Frequency:    24.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Projects\hdl\chine-fpga\test\src\test.sdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 33.630
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock           
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group           
+-------------------------------------------------------------------------------------------------------------------
+clk                24.0 MHz      124.4 MHz     41.667        8.037         33.630     declared     default_clkgroup
+System             24.0 MHz      866.9 MHz     41.667        1.154         40.513     system       system_clkgroup 
+===================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------
+System    clk     |  41.667      40.513  |  No paths    -      |  No paths    -      |  No paths    -    
+clk       System  |  41.667      40.279  |  No paths    -      |  No paths    -      |  No paths    -    
+clk       clk     |  41.667      33.630  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                         Arrival           
+Instance           Reference     Type     Pin     Net               Time        Slack 
+                   Clock                                                              
+--------------------------------------------------------------------------------------
+cnt_delay[21]      clk           DFFC     Q       cnt_delay[21]     0.367       33.630
+cnt_delay[17]      clk           DFFC     Q       cnt_delay[17]     0.367       33.697
+cnt_delay[20]      clk           DFFC     Q       cnt_delay[20]     0.367       33.697
+uart_rx.cnt[1]     clk           DFFC     Q       cnt[1]            0.367       33.759
+cnt_delay[16]      clk           DFFC     Q       cnt_delay[16]     0.367       33.764
+uart_rx.cnt[0]     clk           DFFC     Q       cnt[0]            0.367       33.827
+cnt_delay[1]       clk           DFFC     Q       cnt_delay[1]      0.367       33.907
+cnt_delay[22]      clk           DFFC     Q       cnt_delay[22]     0.367       33.907
+uart_rx.cnt[4]     clk           DFFC     Q       cnt[4]            0.367       33.955
+cnt_delay[0]       clk           DFFC     Q       cnt_delay[0]      0.367       33.974
+======================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                 Starting                                          Required           
+Instance         Reference     Type     Pin     Net                Time         Slack 
+                 Clock                                                                
+--------------------------------------------------------------------------------------
+cnt_delay[0]     clk           DFFC     D       cnt_delay_2[0]     41.534       33.630
+cnt_delay[1]     clk           DFFC     D       cnt_delay_2[1]     41.534       33.630
+cnt_delay[2]     clk           DFFC     D       cnt_delay_2[2]     41.534       33.630
+cnt_delay[3]     clk           DFFC     D       cnt_delay_2[3]     41.534       33.630
+cnt_delay[4]     clk           DFFC     D       cnt_delay_2[4]     41.534       33.630
+cnt_delay[5]     clk           DFFC     D       cnt_delay_2[5]     41.534       33.630
+cnt_delay[6]     clk           DFFC     D       cnt_delay_2[6]     41.534       33.630
+cnt_delay[7]     clk           DFFC     D       cnt_delay_2[7]     41.534       33.630
+cnt_delay[8]     clk           DFFC     D       cnt_delay_2[8]     41.534       33.630
+cnt_delay[9]     clk           DFFC     D       cnt_delay_2[9]     41.534       33.630
+======================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      41.667
+    - Setup time:                            0.133
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         41.534
+
+    - Propagation time:                      7.904
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     33.630
+
+    Number of logic level(s):                4
+    Starting point:                          cnt_delay[21] / Q
+    Ending point:                            cnt_delay[0] / D
+    The start point is clocked by            clk [rising] on pin CLK
+    The end   point is clocked by            clk [rising] on pin CLK
+
+Instance / Net                Pin      Pin               Arrival     No. of    
+Name                 Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------
+cnt_delay[21]        DFFC     Q        Out     0.367     0.367       -         
+cnt_delay[21]        Net      -        -       1.021     -           2         
+un1_cnt_delay_13     LUT4     I1       In      -         1.388       -         
+un1_cnt_delay_13     LUT4     F        Out     1.099     2.487       -         
+un1_cnt_delay_13     Net      -        -       0.766     -           1         
+un1_cnt_delay_21     LUT4     I1       In      -         3.253       -         
+un1_cnt_delay_21     LUT4     F        Out     1.099     4.352       -         
+un1_cnt_delay_21     Net      -        -       0.766     -           1         
+un1_cnt_delay        LUT3     I2       In      -         5.117       -         
+un1_cnt_delay        LUT3     F        Out     0.822     5.939       -         
+un1_cnt_delay        Net      -        -       1.143     -           25        
+cnt_delay_2[0]       LUT3     I2       In      -         7.082       -         
+cnt_delay_2[0]       LUT3     F        Out     0.822     7.904       -         
+cnt_delay_2[0]       Net      -        -       0.000     -           1         
+cnt_delay[0]         DFFC     D        In      -         7.904       -         
+===============================================================================
+Total path delay (propagation time + setup) of 8.037 is 4.342(54.0%) logic and 3.695(46.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                    Arrival           
+Instance     Reference     Type     Pin     Net          Time        Slack 
+             Clock                                                         
+---------------------------------------------------------------------------
+CO0_i        System        INV      O       CO0_i        0.000       40.513
+G5_c_i       System        INV      O       G5_c_i       0.000       40.513
+butB_c_i     System        INV      O       butB_c_i     0.000       40.513
+===========================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                        Starting                                        Required           
+Instance                Reference     Type      Pin        Net          Time         Slack 
+                        Clock                                                              
+-------------------------------------------------------------------------------------------
+cnt[0]                  System        DFFC      D          CO0_i        41.534       40.513
+sel                     System        DFFPE     D          G5_c_i       41.534       40.513
+sel_oreg                System        DFFPE     D          G5_c_i       41.534       40.513
+uart_tx.send_reg[1]     System        DFFP      PRESET     butB_c_i     41.534       40.513
+uart_tx.send_reg[2]     System        DFFP      PRESET     butB_c_i     41.534       40.513
+uart_tx.send_reg[3]     System        DFFP      PRESET     butB_c_i     41.534       40.513
+uart_tx.send_reg[4]     System        DFFP      PRESET     butB_c_i     41.534       40.513
+uart_tx.send_reg[5]     System        DFFP      PRESET     butB_c_i     41.534       40.513
+uart_tx.send_reg[6]     System        DFFP      PRESET     butB_c_i     41.534       40.513
+uart_tx.send_reg[7]     System        DFFP      PRESET     butB_c_i     41.534       40.513
+===========================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      41.667
+    - Setup time:                            0.133
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         41.534
+
+    - Propagation time:                      1.021
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 40.513
+
+    Number of logic level(s):                0
+    Starting point:                          CO0_i / O
+    Ending point:                            cnt[0] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            clk [rising] on pin CLK
+
+Instance / Net              Pin      Pin               Arrival     No. of    
+Name               Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------
+CO0_i              INV      O        Out     0.000     0.000       -         
+CO0_i              Net      -        -       1.021     -           1         
+cnt[0]             DFFC     D        In      -         1.021       -         
+=============================================================================
+Total path delay (propagation time + setup) of 1.154 is 0.133(11.5%) logic and 1.021(88.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 225MB peak: 225MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 225MB peak: 225MB)
+
+---------------------------------------
+Resource Usage Report for test 
+
+Mapping to part: gw1n_1qfn48-6
+Cell usage:
+ALU             48 uses
+DFFC            45 uses
+DFFCE           25 uses
+DFFP            8 uses
+DFFPE           26 uses
+GSR             1 use
+INV             3 uses
+MUX2_LUT5       7 uses
+LUT2            22 uses
+LUT3            57 uses
+LUT4            60 uses
+
+I/O ports: 10
+I/O primitives: 10
+IBUF           4 uses
+OBUF           6 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   104 of 864 (12%)
+Total load per clock:
+   clk: 58
+
+@S |Mapping Summary:
+Total  LUTs: 139 (12%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 71MB peak: 225MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:06s cputime
+# Mon Dec  9 19:08:21 2019
+
+###########################################################]

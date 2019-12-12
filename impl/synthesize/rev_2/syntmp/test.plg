@@ -1,0 +1,17 @@
+@P:  Worst Slack : 33.630
+@P:  clk - Estimated Frequency : 124.4 MHz
+@P:  clk - Requested Frequency : 24.0 MHz
+@P:  clk - Estimated Period : 8.037
+@P:  clk - Requested Period : 41.667
+@P:  clk - Slack : 33.630
+@P:  System - Estimated Frequency : 866.9 MHz
+@P:  System - Requested Frequency : 24.0 MHz
+@P:  System - Estimated Period : 1.154
+@P:  System - Requested Period : 41.667
+@P:  System - Slack : 40.513
+@P: test Part : gw1n_1qfn48-6
+@P: test I/O primitives : 10
+@P: test I/O Register bits : 0
+@P: test Register bits (Non I/O) : 104 (12%)
+@P: test Total Luts : 139 of 800 (12%)
+@P:  CPU Time : 0h:00m:05s

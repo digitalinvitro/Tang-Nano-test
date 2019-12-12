@@ -1,0 +1,12 @@
+-d C:\Projects\hdl\chine-fpga\test\impl\synthesize\rev_1\test.vm
+-p GW1N-1-QFN48-6
+-pn GW1N-LV1QN48C6/I5
+-cst C:\Projects\hdl\chine-fpga\test\src\test.cst
+-cfg C:\Projects\hdl\chine-fpga\test\impl\pnr\device.cfg
+-sdc C:\Projects\hdl\chine-fpga\test\src\test.sdc
+-bit
+-tr
+-ph
+-posp
+-warning_all
+-timing

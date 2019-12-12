@@ -1,0 +1,3 @@
+C:\Projects\hdl\chine-fpga\test\src\test.v
+C:\Projects\hdl\chine-fpga\test\src\uart.v
+C:\Projects\hdl\chine-fpga\test\src\uart.v

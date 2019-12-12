@@ -1,0 +1,7 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Projects\hdl\chine-fpga\test\src\uart.v":12:7:12:15|Synthesizing module serial_rx in library work.
+@N: CG364 :"C:\Projects\hdl\chine-fpga\test\src\uart.v":81:7:81:15|Synthesizing module serial_tx in library work.
+@N: CG364 :"C:\Projects\hdl\chine-fpga\test\src\test.v":1:7:1:10|Synthesizing module test in library work.
+@N|Running in 64-bit mode
+

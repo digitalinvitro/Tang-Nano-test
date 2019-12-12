@@ -1,0 +1,142 @@
+# Mon Dec  9 19:08:12 2019
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: E:\develop\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: HOME-PC
+
+Implementation : rev_2
+Synopsys Generic Technology Pre-mapping, Version mapgw, Build 1450R, Built Sep 25 2019 09:35:08
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 116MB)
+
+Reading constraint file: C:\Projects\hdl\chine-fpga\test\src\test.sdc
+@L: C:\Projects\hdl\chine-fpga\test\impl\synthesize\rev_2\test_scck.rpt 
+Printing clock  summary report in "C:\Projects\hdl\chine-fpga\test\impl\synthesize\rev_2\test_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 124MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 125MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 125MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 138MB)
+
+@N: FX493 |Applying initial value "0" on instance recv_edge.
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "1" on instance RDY.
+@N: FX493 |Applying initial value "000000000" on instance shift_reg[8:0].
+@N: FX493 |Applying initial value "00000000" on instance cnt[7:0].
+@N: FX493 |Applying initial value "00000000" on instance send_cnt[7:0].
+@N: FX493 |Applying initial value "1111111111" on instance send_reg[9:0].
+@N: FX493 |Applying initial value "1" on instance sel.
+@N: FX493 |Applying initial value "0" on instance send.
+@N: FX493 |Applying initial value "000" on instance cnt[2:0].
+@N: FX493 |Applying initial value "1" on instance rB.
+@N: FX493 |Applying initial value "1" on instance rG.
+@N: FX493 |Applying initial value "1" on instance rR.
+@N: FX493 |Applying initial value "1111110" on instance CH_blue[6:0].
+@N: FX493 |Applying initial value "0111110" on instance CH_green[6:0].
+@N: FX493 |Applying initial value "0011110" on instance CH_red[6:0].
+@N: FX493 |Applying initial value "00000000" on instance PWM_CNT[7:0].
+@N: FX493 |Applying initial value "00" on instance mxColor[1:0].
+@N: FX493 |Applying initial value "000000000000000000000000" on instance cnt_delay[23:0].
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 216MB peak: 216MB)
+
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 217MB peak: 217MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 217MB peak: 217MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 217MB peak: 217MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 217MB peak: 217MB)
+
+@N: MT611 :|Automatically generated clock test|cnt_derived_clock[2] is not used and is being removed
+@N: MT611 :|Automatically generated clock serial_rx|recv_edge_derived_clock is not used and is being removed
+@N: MT611 :|Automatically generated clock serial_rx|recv_edge_derived_clock_inv_proxy is not used and is being removed
+
+
+Clock Summary
+******************
+
+          Start     Requested     Requested     Clock        Clock                Clock
+Level     Clock     Frequency     Period        Type         Group                Load 
+---------------------------------------------------------------------------------------
+0 -       clk       24.0 MHz      41.667        declared     default_clkgroup     100  
+=======================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+          Clock     Source          Clock Pin       Non-clock Pin     Non-clock Pin                                  
+Clock     Load      Pin             Seq Example     Seq Example       Comb Example                                   
+---------------------------------------------------------------------------------------------------------------------
+clk       100       clock(port)     sel.C           -                 serial_rx|recv_edge_derived_clock.I[0](keepbuf)
+=====================================================================================================================
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 100 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+45 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@KP:ckid0_0       clock               port                   100        cnt_delay[23]  
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Projects\hdl\chine-fpga\test\impl\synthesize\rev_2\test.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 218MB peak: 218MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 218MB peak: 218MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 218MB peak: 218MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 140MB peak: 220MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Mon Dec  9 19:08:15 2019
+
+###########################################################]
